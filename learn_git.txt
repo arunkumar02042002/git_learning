@@ -17,3 +17,10 @@ git rm filename
 git rm -f .\i.txt # -f means forced removal
 
 # Shift+q to exit
+
+# Git commit
+git commit
+-> Enter message
+-> ctrl+c
+-> :qa!
+git commit -m "Commit message"
