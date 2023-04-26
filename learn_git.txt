@@ -24,3 +24,26 @@ git commit
 -> ctrl+c
 -> :qa!
 git commit -m "Commit message"
+git commit -a -m "New Commit" 
+
+# to update changes on github
+git push
+
+# to check number of commits
+git log
+
+
+# Creating a new branch
+git checkout -b new_branch_name
+
+# To check number of branches
+git branch
+
+# To check difference between main and local files
+git fetch
+
+# to update local files as main files
+git pull
+
+# to merge different branches
+git merge origin/main
