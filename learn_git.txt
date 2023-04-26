@@ -1,0 +1,19 @@
+git clone repolink # Cloning a repository
+
+git status # To check status of files
+
+git diff # To check difference between working and staging area
+
+# Staging
+git add filename
+git add . # Stage all files
+
+# unstaging 
+git reset HEAD filename # Method 1
+git restore --staged # Method 2
+
+#to remove file
+git rm filename
+git rm -f .\i.txt # -f means forced removal
+
+# Shift+q to exit
